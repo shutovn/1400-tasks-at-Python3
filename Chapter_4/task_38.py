@@ -30,10 +30,6 @@ count_long = x * y
 n = math.floor(a / d)
 m = math.floor(b / c)
 count_short = n * m
-
-print(count_long)
-print(count_short)
-
 answer = "длинной" if count_long > count_short else "короткой"
 
 print(" ")
